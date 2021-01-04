@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 5%;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: lightgoldenrodyellow;
+           
+        
+        }
+        li {
+            display: inline-block;
+            padding:1em;
+           
+        }
+        p{
+            font-size: large;
+            font-style: italic;
+        }
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+   
+</head>
+<body>
+    <h1>chat</h1>
+       
+            <p>Please enter your name to Start the Chat</p>
+    <div class ="chat">
+        <form id ="nameForm">
+            <input type="text" id="name-input" placeholder="Enter your Name">
+            <button id="name-btn">Enter</button>
+        </form>
+        <div class="chat-header">Chat</div>
+        <div class="chat-window">
+            <ul id ="messages">
+              
+             
+      
+            </ul>
+            <form id="messageForm">
+                <input type="text" id="msg-input" placeholder="Enter a message">
+                <button id="msg-btn" onclick="refresh">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+
+h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.chat{
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+}
+.chat-header{
+    text-align: center;
+    background-color: rgb(160, 205, 247);
+    font-size: 24px;
+    padding: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.chat-window{
+    background-color:rgb(74, 97, 94);
+    height: 390px;
+    width: 100%;
+    overflow: scroll;
+    padding-bottom: 13px;
+    
+}
+#messageForm{
+    background-color:  rgb(160, 205, 247);
+    position: absolute;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom:15px;
+  
+    width: 100%;
+}
+#msg-input{
+    padding: 7px;
+    border-radius: 20px;
+    border: 0;
+    width: 70%;
+    outline: none;
+    margin-right: 5px;
+}
+#msg-btn{
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+#msg-my{
+    list-style-type: none;
+
+}
+span{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 5px 5px 5px 10px;
+    box-shadow: 0.2px 0.3px 2px rgba(0,0,0,0.3);
+}
+.name{
+    list-style: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+.my{
+    text-align: right;
+    list-style-type: none;
+
+}
+.my span{
+    background-color: black;
+    color: white;
+    list-style-type: none ;
+}
+.my i {
+    display: none;
+}
+#msg-my span{
+    list-style-type: none;
+}
+.msg.false{
+    list-style-type: none;
+}
+#nameForm{
+    background-color: white;
+    box-shadow: 0.3px black;
+    max-width: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+}
+#name-input{
+    border:none;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black ;
+}
+#name-btn{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    background-color: rgb(160, 205, 247);
+
+}
