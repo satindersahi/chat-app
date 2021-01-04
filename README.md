@@ -1,1 +1,1 @@
-# small chat-app
+# small chat-app with google Firebase 
